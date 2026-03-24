@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Diensten - Bedrijf</title>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html"><img src="assets/logo it.png" alt="Logo" class="logo"></a>
+      <button class="hamburger" aria-label="Menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="diensten.html" class="active">Diensten</a>
+        <a href="over.html">Over ons</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contacten.html">Contacten</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="services-hero">
+      <div class="services-text">
+        <h1>Onze missie</h1>
+        <p>We helpen je graag met digitale vragen en geven oude laptops een tweede leven. Samen verkleinen we de berg elektronisch afval en vergroten we digitale kansen.</p>
+        <ul>
+          <li>Gratis hulp bij vragen over PC, laptop, tablet of telefoon</li>
+          <li>Refurbished laptops tegen een gereduceerd tarief</li>
+          <li>Stagiaires van het KW1C doen hier waardevolle werkervaring op</li>
+        </ul>
+      </div>
+      <img src="assets/nummer2.jpg" alt="Diensten afbeelding" class="service-image side">
+    </div>
+
+    <section class="service-list">
+      <article class="service-detail">
+        <h2>Cloud & Hosting</h2>
+        <p>Advies, migratie en beheer van cloudomgevingen (public, private en hybrid). Inclusief back-ups en monitoring.</p>
+      </article>
+
+      <article class="service-detail">
+        <h2>Netwerk & Beveiliging</h2>
+        <p>Ontwerp en beheer van veilige netwerken, firewall-implementatie, intrusion detection en periodieke security scans.</p>
+      </article>
+
+      <article class="service-detail">
+        <h2>Managed IT & Support</h2>
+        <p>Proactief beheer van werkstations en servers, patch-management en 24/7 ondersteuning voor uw medewerkers.</p>
+      </article>
+
+      <article class="service-detail">
+        <h2>Consultancy & Projecten</h2>
+        <p>IT-architectuur, migratieprojecten, en advies voor digitale transformatie en compliant processen.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Bedrijf. Alle rechten voorbehouden.</p>
+      <p>Powered by</p>
+      <img src="assets/logo kw1c.png" alt="Koning Willem I College" class="footer-logo">
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const nav = document.querySelector('.main-nav');
+      hamburger.addEventListener('click', function() {
+        nav.classList.toggle('open');
+      });
+    });
+  </script>
+</body>
+</html>

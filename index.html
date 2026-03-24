@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>ict loked</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="bescrijving">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html"><img src="assets/logo it.png" alt="Logo" class="logo"></a>
+      <button class="hamburger" aria-label="Menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="diensten.html">Diensten</a>
+        <a href="over.html">Over ons</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contacten.html">Contacten</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Beter digitaliseren, slimmer hergebruiken</h1>
+        <p>Wij helpen je graag met digitale vragen en geven oude laptops een tweede leven. Samen verkleinen we de berg elektronisch afval en vergroten we digitale kansen. Stagiaires van het KW1C doen hier waardevolle werkervaring op.</p>
+        <ul class="hero-list">
+          <li>Gratis hulp bij PC, laptop, tablet of telefoon</li>
+          <li>Refurbished laptops tegen een gereduceerd tarief</li>
+          <li>Ondersteuning bij ICT-vaardigheden en preventie</li>
+        </ul>
+        <a href="diensten.html" class="cta">Lees meer over onze diensten</a>
+      </div>
+      <img src="assets/ict worker.png" alt="ICT Worker" class="hero-image">
+    </section>
+
+    <section class="hero-why">
+      <h2>Waarom kiezen voor ons?</h2>
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>Groen & sociaal</h3>
+          <p>We geven hardware een tweede leven en bieden werkervaring aan leerlingen.</p>
+        </article>
+        <article class="service-card">
+          <h3>Betrouwbaar advies</h3>
+          <p>Je krijgt gratis praktische ondersteuning bij je digitale vragen.</p>
+        </article>
+        <article class="service-card">
+          <h3>Betaalbare oplossingen</h3>
+          <p>Refurbished laptops voor een lagere drempel en duurzaam gebruik.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Onze kernspecialisaties</h2>
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>Cloud & Hosting</h3>
+          <p>Schaalbare cloudmigraties, beheerde servers en continu monitoring.</p>
+        </article>
+        <article class="service-card">
+          <h3>Netwerk & Beveiliging</h3>
+          <p>Firewall, VPN, en proactieve beveiligingsaudits om risico's te minimaliseren.</p>
+        </article>
+        <article class="service-card">
+          <h3>Managed IT Support</h3>
+          <p>24/7 helpdesk, remote support en on-site onderhoud op afspraak.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Bedrijf. Alle rechten voorbehouden.</p>
+      <p>Powered by</p>
+      <img src="assets/logo kw1c.png" alt="Koning Willem I College" class="footer-logo">
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const nav = document.querySelector('.main-nav');
+      hamburger.addEventListener('click', function() {
+        nav.classList.toggle('open');
+      });
+    });
+  </script>
+</body>
+</html>

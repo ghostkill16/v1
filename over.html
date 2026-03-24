@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Over ons - Bedrijf</title>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html"><img src="assets/logo it.png" alt="Logo" class="logo"></a>
+      <button class="hamburger" aria-label="Menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="diensten.html">Diensten</a>
+        <a href="over.html" class="active">Over ons</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contacten.html">Contacten</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Over ons</h1>
+
+    <section class="about">
+      <p>Wij zijn een gespecialiseerd IT-bedrijf met ervaring in managed services, security en cloudmigraties. Ons team bestaat uit gecertificeerde specialisten die praktische en toekomstbestendige oplossingen leveren.</p>
+    </section>
+
+    <section class="mission">
+      <h2>Onze missie</h2>
+      <p>We helpen je graag met digitale vragen en geven oude laptops een tweede leven. Samen verkleinen we de berg elektronisch afval en vergroten we digitale kansen. En het mooie is: stagiaires van het KW1C doen hier waardevolle werkervaring op.</p>
+      <p>Gratis hulp bij vragen over PC, laptop, tablet of telefoon. Refurbished laptops tegen een gereduceerd tarief.</p>
+    </section>
+
+    <section class="team">
+      <h2>Ons team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="assets/trump.jpg" alt="Jan de Vries" class="member-photo">
+          <div class="member-info">
+            <h3>Jan de Vries</h3>
+            <p>CEO & Architect — 15 jaar ervaring in IT-architectuur en cloudmigraties.</p>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="assets/willy.jpg" alt="Eva Jansen" class="member-photo">
+          <div class="member-info">
+            <h3>Eva Jansen</h3>
+            <p>Security Lead — specialist in netwerkbeveiliging en audits.</p>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="assets/wilders.jpg" alt="Bas van Dijk" class="member-photo">
+          <div class="member-info">
+            <h3>Bas van Dijk</h3>
+            <p>Support Manager — verantwoordelijk voor operations en klantondersteuning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Bedrijf. Alle rechten voorbehouden.</p>
+      <p>Powered by</p>
+      <img src="assets/logo kw1c.png" alt="Koning Willem I College" class="footer-logo">
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const nav = document.querySelector('.main-nav');
+      hamburger.addEventListener('click', function() {
+        nav.classList.toggle('open');
+      });
+    });
+  </script>
+</body>
+</html>

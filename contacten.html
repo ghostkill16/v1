@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacten - Bedrijf</title>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html"><img src="assets/logo it.png" alt="Logo" class="logo"></a>
+      <button class="hamburger" aria-label="Menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="diensten.html">Diensten</a>
+        <a href="over.html">Over ons</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contacten.html" class="active">Contacten</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact</h1>
+
+    <section class="contact-info">
+      <p>Vul onderstaand formulier in en ons team neemt contact met u op binnen 1 werkdag.</p>
+      <p><strong>Adres:</strong> Hoofdstraat 1, 1000 AA Plaats</p>
+      <p><strong>Telefoon:</strong> 012 - 345 6789 &nbsp; <strong>Email:</strong> info@bedrijf.nl</p>
+    </section>
+
+    <section class="contact-form">
+      <form method="post" action="#">
+        <label>Naam<br><input type="text" name="naam" required></label>
+        <label>Email<br><input type="email" name="email" required></label>
+        <label>Bericht<br><textarea name="bericht" rows="6" required></textarea></label>
+        <div><button type="submit">Verstuur</button></div>
+      </form>
+      <p class="note">(Dit is een statisch voorbeeld. Voeg server-side verwerking of een service als Formspree toe om inzendingen te ontvangen.)</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Bedrijf. Alle rechten voorbehouden.</p>
+      <p>Powered by</p>
+      <img src="assets/logo kw1c.png" alt="Koning Willem I College" class="footer-logo">
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Inloggen - Bedrijf</title>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html"><img src="assets/logo it.png" alt="Logo" class="logo"></a>
+      <button class="hamburger" aria-label="Menu">☰</button>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="diensten.html">Diensten</a>
+        <a href="over.html">Over ons</a>
+        <a href="contacten.html">Contacten</a>
+        <a href="faq.html" class="active">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="login-section">
+      <div class="login-box">
+        <h1>Inloggen</h1>
+        <p>Voer uw gegevens in om toegang te krijgen tot uw klantportaal.</p>
+
+        <form method="post" action="#" class="login-form">
+          <label>
+            E-mailadres<br>
+            <input type="email" name="email" required>
+          </label>
+
+          <label>
+            Wachtwoord<br>
+            <input type="password" name="password" required>
+          </label>
+
+          <label class="remember">
+            <input type="checkbox" name="remember"> Onthoud mij
+          </label>
+
+          <button type="submit" class="btn-primary">Inloggen</button>
+        </form>
+
+        <p class="login-footer">
+          Nog geen account? <a href="#">Registreren</a><br>
+          <a href="#">Wachtwoord vergeten?</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+ <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Bedrijf. Alle rechten voorbehouden.</p>
+      <p>Powered by</p>
+      <img src="assets/logo kw1c.png" alt="Koning Willem I College" class="footer-logo">
+    </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const nav = document.querySelector('.main-nav');
+      hamburger.addEventListener('click', function() {
+        nav.classList.toggle('open');
+      });
+    });
+  </script>
+</body>
+</html>
