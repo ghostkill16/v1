@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-  height: 60px;
+  height: 45px;
   width: auto;
   display: block
 }
@@ -460,7 +460,7 @@ main.container {
 .login-form .remember {
   display: flex;
   align-items: center;
-  font-weight: normal;
+  font-weight: normal;ass
   gap: 0.5rem
 }
 
